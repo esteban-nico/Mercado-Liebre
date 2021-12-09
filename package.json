@@ -157,6 +157,7 @@
     "yallist": "^4.0.0"
   },
   "scripts": {
+    "test": "nodemon src/app.js -e js,mjs,json,html,css",
     "start": "node src/app.js"
   },
   "keywords": [],
